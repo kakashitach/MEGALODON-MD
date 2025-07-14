@@ -20,9 +20,9 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*sᴛᴀᴛᴜs sᴜᴄᴄᴇss
 // set the auto reply massage on status reply  
 WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups    
-ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
+ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 // make true to know who dismiss or promoted a member in group
-MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/2ozipw.jpg" ,
+MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/121i06.jpg" ,
 // add custom menu and mention reply image url
 PREFIX: getConfig("PREFIX") || ".", 
 // add your prifix for bot   
@@ -54,14 +54,14 @@ MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
-ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "false",
-ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
-ANTILINK_KICK: process.env.ANTILINK_KICK || "false",
-ANTILINK: process.env.ANTILINK || "false",
+ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "true",
+ANTILINK_WARN: process.env.ANTILINK_WARN || "true",
+ANTILINK_KICK: process.env.ANTILINK_KICK || "true",
+ANTILINK: process.env.ANTILINK || "true",
 
 ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
 // maks true for always online 
-PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 AUTO_TYPING: process.env.AUTO_TYPING || "false",
 // true for automatic show typing   
