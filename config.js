@@ -24,8 +24,8 @@ ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 // make true to know who dismiss or promoted a member in group
 MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/121i06.jpg" ,
 // add custom menu and mention reply image url
-PREFIX: getConfig("PREFIX") || ".", 
-// add your prifix for bot   
+PREFIX: getConfig("PREFIX") || "^", 
+// add your prifix for bot  
 OWNER_NAME: getConfig("OWNER_NAME") || "𓅂ＫＡＫＡＳＨＩ𓅂𝐊𝚰𝚪𝚫✞",
 // add bot owner name
 CHATBOT: getConfig("CHATBOT") || "on", 
@@ -50,7 +50,7 @@ AUTO_REACT: process.env.AUTO_REACT || "false",
 ANTI_BAD: process.env.ANTI_BAD || "false",
 // false or true for anti bad words 
 ANTI_BOT: process.env.ANTI_BOT || "true",
-MODE: process.env.MODE || "public",
+MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 ANTI_LINK_KICK: process.env.ANTI_LINK_KICK || "false",
 // make anti link true,false for groups 
