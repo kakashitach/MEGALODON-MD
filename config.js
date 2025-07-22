@@ -8,7 +8,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~PNkWFL7b#2e2c2nUsR1KRk-ANFxhNaAvjiBPjGKNXB1uyKVH0ktA",
+SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~zNk1SLrJ#-K3QB3PWTDrxCWp8BZdqvM5a9fk1OO5M1aQu5Jsx6FM",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -24,7 +24,7 @@ ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 // make true to know who dismiss or promoted a member in group
 MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/121i06.jpg" ,
 // add custom menu and mention reply image url
-PREFIX: getConfig("PREFIX") || "^", 
+PREFIX: getConfig("PREFIX") || "/", 
 // add your prifix for bot  
 OWNER_NAME: getConfig("OWNER_NAME") || "𓅂ＫＡＫＡＳＨＩ𓅂𝐊𝚰𝚪𝚫✞",
 // add bot owner name
